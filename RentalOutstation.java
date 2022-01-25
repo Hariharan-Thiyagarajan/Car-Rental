@@ -7,7 +7,7 @@ public class RentalOutstation {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\M1077553\\Documents\\chrome\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\Admin\\Documents\\chrome\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.savaari.com/");
 		//OutStation
