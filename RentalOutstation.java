@@ -23,9 +23,9 @@ public class RentalOutstation {
 		driver.findElement(By.xpath(Xpath + "/form/div[4]/div/button")).click();
 		Thread.sleep(1000);
         driver.findElement(By.xpath("//*[@id=\"approot\"]/mat-sidenav-container/mat-sidenav-content/app-select-car/div[2]/div/div/div[2]/div/div[4]/div/button")).click();
-        driver.findElement(By.xpath("//*[@id=\"approot\"]/mat-sidenav-container/mat-sidenav-content/app-booking/div[2]/app-booking-pickup-detail/div/div[2]/form/div[1]/div/input")).sendKeys("Hari");
-        driver.findElement(By.xpath("//*[@id=\"approot\"]/mat-sidenav-container/mat-sidenav-content/app-booking/div[2]/app-booking-pickup-detail/div/div[2]/form/div[2]/input")).sendKeys("awe@gmail.com");
-        driver.findElement(By.xpath("//*[@id=\"approot\"]/mat-sidenav-container/mat-sidenav-content/app-booking/div[2]/app-booking-pickup-detail/div/div[2]/form/div[3]/div/input")).sendKeys("1153667216");
+        driver.findElement(By.xpath("//*[@id=\"approot\"]/mat-sidenav-container/mat-sidenav-content/app-booking/div[2]/app-booking-pickup-detail/div/div[2]/form/div[1]/div/input")).sendKeys("name");
+        driver.findElement(By.xpath("//*[@id=\"approot\"]/mat-sidenav-container/mat-sidenav-content/app-booking/div[2]/app-booking-pickup-detail/div/div[2]/form/div[2]/input")).sendKeys("abc@gmail.com");
+        driver.findElement(By.xpath("//*[@id=\"approot\"]/mat-sidenav-container/mat-sidenav-content/app-booking/div[2]/app-booking-pickup-detail/div/div[2]/form/div[3]/div/input")).sendKeys("11111111111");
         driver.findElement(By.id("search_places")).sendKeys("Chennai");
         Thread.sleep(1000);
 		driver.findElement(By.id("search_places")).sendKeys(Keys.ENTER);
